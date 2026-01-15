@@ -12,7 +12,7 @@ from datetime import date
 
 def create_analysis_pdf():
     # Create PDF
-    pdf_filename = "src/EVE6.1_Analyse_Losmaakbaarheid_Lieke.pdf"
+    pdf_filename = "src/lieke/EVE6.1_Analyse_Losmaakbaarheid_Lieke.pdf"
     doc = SimpleDocTemplate(pdf_filename, pagesize=A4,
                             topMargin=20*mm, bottomMargin=20*mm,
                             leftMargin=20*mm, rightMargin=20*mm)
